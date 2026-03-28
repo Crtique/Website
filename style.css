@@ -1,4 +1,18 @@
 body {
-    background-color: purple;
     text-align: center;
+}
+.column {
+  float: left;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+figure {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
 }
