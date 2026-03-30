@@ -23,6 +23,23 @@ figure {
   width: 100%;
 }
 
+.navmenu{
+  overflow: hidden;
+  background-color: black;
+}
+.navmenu a{
+  float: left;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+.navmenu a:hover{
+  background-color: white;
+  color: black;
+}
+
 .column {
   float: left;
   margin: 25px;
