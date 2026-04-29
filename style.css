@@ -85,7 +85,11 @@ h1 {
 
 /* First Contributions page */
 .open-page {
-  font-size: calc(1rem + 1vw);
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto;  
+  padding: 20px;
+  font-size: clamp(1rem, 1vw + 1rem, 2.5rem); 
   margin-left: 25%;
   margin-right: 25%;
 }
