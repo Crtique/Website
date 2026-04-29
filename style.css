@@ -76,7 +76,7 @@ h1 {
   border-top: 6px solid black;
 }
 .text-section {
-  font-size: 1vw;
+  font-size: calc(1rem + 1vw);
 
   margin-left: 25%;
   margin-right: 25%;
@@ -99,9 +99,4 @@ h1 {
   font-size: calc(1rem + 1vw);
   display: flex;
   justify-content: center;
-}
-.response {
-  display: inline-block;
-  text-align: left;
-  margin-right: 40%;
 }
