@@ -38,7 +38,7 @@ h1 {
   text-align: center;
   padding: 15px 32px;
   margin: 4px 2px;
-  font-size: 16px;
+  font-size: 1vw;
 }
 
 /* Navigation Menu Style */
@@ -52,7 +52,7 @@ h1 {
   text-align: center;
   text-decoration: none;
   padding: 14px 16px;
-  font-size: 20px;
+  font-size: 1vw;
 }
 .navmenu a:hover {
   background-color: white;
@@ -76,7 +76,7 @@ h1 {
   border-top: 6px solid black;
 }
 .text-section {
-  font-size: 17px;
+  font-size: 1vw;
 
   margin-left: 25%;
   margin-right: 25%;
@@ -85,18 +85,18 @@ h1 {
 
 /* First Contributions page */
 .open-page {
-  font-size: 20px;
+  font-size: 1vw;
   margin-left: 25%;
   margin-right: 25%;
 }
 
 .list {
-  font-size: 20px;
+  font-size: 1vw;
   display: flex;
   justify-content: center;
 }
 .list2 {
-  font-size: 20px;
+  font-size: 1vw;
   display: flex;
   justify-content: center;
 }
