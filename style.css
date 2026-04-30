@@ -77,9 +77,10 @@ h1 {
 }
 .text-section {
   font-size: calc(1rem + 1vw);
-
-  margin-left: 25%;
-  margin-right: 25%;
+  width: 100%;
+  max-width: 1000px;
+  font-size: clamp(1rem, 1vw + 1rem, 2.5rem);
+  margin: auto;
   margin-bottom: 25px;
 }
 
@@ -87,11 +88,8 @@ h1 {
 .open-page {
   width: 100%;
   max-width: 1000px;
-  margin: 20px auto;  
-  padding: 20px;
+  margin: auto;
   font-size: clamp(1rem, 1vw + 1rem, 2.5rem); 
-  margin-left: 25%;
-  margin-right: 25%;
 }
 
 .list {
